@@ -1,0 +1,60 @@
+.container {
+	background-color: #313a49;
+	padding: 40px;
+	padding-top: 25px;
+	margin-inline: 45px;
+	border-radius: 25px;
+	position: relative;
+
+	.advice-num {
+		color: #5bd39f;
+		text-align: center;
+		font-size: 1.6rem;
+		letter-spacing: 2px;
+		padding-bottom: 10px;
+	}
+
+	.advice {
+		color: #cfe0e8;
+		font-size: 1.7rem;
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+
+	.divider {
+		display: flex;
+		gap: 8px;
+		height: 0;
+		padding-block: 20px;
+
+		hr {
+			width: 100%;
+			opacity: 10%;
+		}
+
+		.pause {
+			font-size: 3rem;
+			color: #cfe0e8;
+			align-self: center;
+		}
+	}
+
+	button {
+		border: none;
+		background-color: transparent;
+		position: absolute;
+		bottom: -27px;
+		right: 50%;
+		transform: translateX(50%);
+	}
+
+	.dice {
+		font-size: 3rem;
+		border: 1px solid #5bd39f;
+		border-radius: 50%;
+		padding: 12px;
+		background-color: #5bd39f;
+		color: #232736;
+	}
+}
